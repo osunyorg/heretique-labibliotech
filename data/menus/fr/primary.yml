@@ -5,7 +5,7 @@ items:
   target: https://heretique.fr
   kind: url
   children: []
-- title: Livres
+- title: Tous les livres
   target: "/livres/"
   kind: page
   children: []
