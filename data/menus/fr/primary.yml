@@ -17,4 +17,8 @@ items:
   target: "/organisations/"
   kind: page
   children: []
+- title: En savoir plus
+  target: "/en-savoir-plus/"
+  kind: page
+  children: []
 
