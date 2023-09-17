@@ -1,6 +1,10 @@
 ---
 title: Informations légales
 items:
+- title: Un projet hérétique
+  target: https://heretique.fr
+  kind: url
+  children: []
 - title: Mentions légales
   target: "/mentions-legales/"
   kind: page
@@ -8,9 +12,5 @@ items:
 - title: Plan du site
   target: "/plan-du-site/"
   kind: page
-  children: []
-- title: Un projet hérétique
-  target: https://heretique.fr
-  kind: url
   children: []
 
