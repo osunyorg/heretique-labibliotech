@@ -5,10 +5,6 @@ items:
   target: "/livres/orthodoxie/"
   kind: category
   children: []
-- title: Un projet hérétique
-  target: https://heretique.fr
-  kind: url
-  children: []
 - title: Tous les livres
   target: "/livres/"
   kind: page
