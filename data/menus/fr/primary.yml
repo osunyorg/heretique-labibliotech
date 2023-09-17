@@ -13,12 +13,12 @@ items:
   target: "/livres/heresie/"
   kind: category
   children: []
-- title: En savoir plus
-  target: "/en-savoir-plus/"
-  kind: page
-  children: []
 - title: Hétérodoxies
   target: "/livres/heterodoxies/"
   kind: category
+  children: []
+- title: En savoir plus
+  target: "/en-savoir-plus/"
+  kind: page
   children: []
 
