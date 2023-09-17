@@ -9,12 +9,12 @@ items:
   target: "/livres/orthodoxie/"
   kind: category
   children: []
-- title: En savoir plus
-  target: "/en-savoir-plus/"
-  kind: page
-  children: []
 - title: Hérésie
   target: "/livres/heresie/"
   kind: category
+  children: []
+- title: En savoir plus
+  target: "/en-savoir-plus/"
+  kind: page
   children: []
 
