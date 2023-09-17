@@ -9,4 +9,8 @@ items:
   target: "/plan-du-site/"
   kind: page
   children: []
+- title: Un projet hérétique
+  target: https://heretique.fr
+  kind: url
+  children: []
 
