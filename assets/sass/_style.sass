@@ -1,11 +1,48 @@
 header#document-header
     border-bottom-color: $color-text
-.hero--with-image
+
+.hero
     hgroup,
     h1
         text-align: center
+    .content
+        align-items: center
+    &:not(.hero--with-image)
+        hgroup,
+        h1
+            width: 100%
+@include media-breakpoint-up(desktop)
+    .persons__page
+        .hero
+            .container
+                .content
+                    h1,
+                    p
+                        width: 80%
 .post
-    .media 
+    @include media-breakpoint-down(desktop)
+        flex-direction: row
+        .media
+            max-width: col(4)
+            margin-right: $spacing1
+        .post-categories
+            display: none
+    &:hover
+        .media
+            .real
+                display: block
+                img
+                    opacity: 1
+    .media
+        .preview
+            img
+                image-rendering: pixelated
+        .real
+            display: none
+            position: absolute
+            top: 0
+            img
+                opacity: 0
         img
             aspect-ratio: auto
     .post-categories
@@ -18,6 +55,11 @@ header#document-header
                 padding: 5px 10px
                 font-size: 0.8rem
                 text-transform: uppercase
+.post-infos
+    margin-bottom: $spacing1
+    > li
+        &.reading-time
+            display: none
 .posts-navigation
     border-top: none
 footer#document-footer
