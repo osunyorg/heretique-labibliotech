@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Orthodoxie
+  target: "/livres/orthodoxie/"
+  kind: category
+  children: []
 - title: Un projet hérétique
   target: https://heretique.fr
   kind: url
@@ -12,9 +16,5 @@ items:
 - title: En savoir plus
   target: "/en-savoir-plus/"
   kind: page
-  children: []
-- title: Orthodoxie
-  target: "/livres/orthodoxie/"
-  kind: category
   children: []
 
