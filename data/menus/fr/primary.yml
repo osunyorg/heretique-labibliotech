@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Un projet hérétique
+  target: https://heretique.fr
+  kind: url
+  children: []
 - title: Livres
   target: "/livres/"
   kind: page
