@@ -13,4 +13,8 @@ items:
   target: "/en-savoir-plus/"
   kind: page
   children: []
+- title: Hérésie
+  target: "/livres/heresie/"
+  kind: category
+  children: []
 
