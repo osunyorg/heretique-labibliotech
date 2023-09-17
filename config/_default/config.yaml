@@ -2,3 +2,16 @@ theme: osuny-hugo-theme-aaa
 paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
+params:
+  breadcrumb:
+    position: none
+  summary:
+    position: hero
+  posts:
+    date_format: "2006"
+    index:
+      show_categories: true
+      show_author: true
+      show_description: true
+      truncate_description: 0
+      layout: grid
