@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Livres
-  target: "/livres/"
-  kind: page
-  children: []
 - title: Équipe
   target: "/equipe/"
   kind: page
@@ -13,6 +9,10 @@ items:
     target: "/equipe/equipe-editoriale/"
     kind: page
     children: []
+- title: Livres
+  target: "/livres/"
+  kind: page
+  children: []
 - title: Organisations
   target: "/organisations/"
   kind: page
