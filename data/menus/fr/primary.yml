@@ -1,13 +1,13 @@
 ---
 title: Menu principal
 items:
-- title: Orthodoxie
-  target: "/livres/orthodoxie/"
-  kind: category
-  children: []
 - title: Tous les livres
   target: "/livres/"
   kind: page
+  children: []
+- title: Orthodoxie
+  target: "/livres/orthodoxie/"
+  kind: category
   children: []
 - title: En savoir plus
   target: "/en-savoir-plus/"
