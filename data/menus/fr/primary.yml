@@ -14,7 +14,7 @@ items:
   kind: category
   children: []
 - title: Hétérodoxies
-  target: "/livres/heterodoxies/"
+  target: "/livres/heterodoxie/"
   kind: category
   children: []
 - title: En savoir plus
