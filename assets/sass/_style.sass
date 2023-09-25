@@ -2,9 +2,13 @@ header#document-header
     border-bottom-color: $color-text
 
 .hero
+    margin-bottom: 0
+    padding-bottom: $spacing2
     hgroup,
-    h1
+    h1,
+    .lead
         text-align: center
+        margin-top: 0 !important
     .content
         align-items: center
     &:not(.hero--with-image)
@@ -12,6 +16,12 @@ header#document-header
         h1
             width: 100%
 @include media-breakpoint-up(desktop)
+    .hero--with-image
+        .container
+            .content
+                flex-direction: row-reverse
+            figure
+                width: col(4)
     .persons__page
         .hero
             .container
