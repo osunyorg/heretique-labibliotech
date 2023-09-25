@@ -14,8 +14,8 @@ params:
   posts:
     date_format: "2006"
     index:
-      show_categories: true
-      show_author: true
+      show_categories: false
+      show_author: false
       show_description: true
       truncate_description: 0
       layout: grid

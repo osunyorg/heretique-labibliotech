@@ -8,7 +8,6 @@ header#document-header
     h1,
     .lead
         text-align: center
-        margin-top: 0 !important
     .content
         align-items: center
     &:not(.hero--with-image)
@@ -17,6 +16,11 @@ header#document-header
             width: 100%
 @include media-breakpoint-up(desktop)
     .hero--with-image
+
+        hgroup,
+        h1,
+        .lead
+            margin-top: 0 !important
         .container
             .content
                 flex-direction: row-reverse
@@ -51,10 +55,15 @@ header#document-header
             display: none
             position: absolute
             top: 0
+            max-width: col(2, 4)
             img
                 opacity: 0
         img
             aspect-ratio: auto
+    .post-meta
+        margin-top: 0 !important
+        *
+            font-weight: bold
     .post-categories
         float: right
         margin-left: $spacing1
@@ -70,6 +79,10 @@ header#document-header
     > li
         &.reading-time
             display: none
+.posts--grid,
+.block-posts--grid
+    .media
+        max-width: col(2, 4)
 .posts-navigation
     border-top: none
 footer#document-footer
