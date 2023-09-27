@@ -6,8 +6,3 @@ baseURL: https://labibliothech.web.deuxfleurs.fr
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
 
-deployment:
-  matchers:
-    - pattern: "^.+\\.(woff2|woff|svg|ttf|eot|png|jpg|jpeg|gif|webp|js|css)$"
-      cacheControl: "max-age=31536000, no-transform, public"
-      gzip: true
