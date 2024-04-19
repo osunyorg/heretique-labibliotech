@@ -12,12 +12,15 @@ fr:
     posts: /livres/:year-:month-:day-:slug/
     posts_categories: /livres/:slug/
     persons: /personnes/:slug/
+    persons_categories: /personnes/:slug/
   taxonomies:
     administrator: administrators
     author: authors
     diploma: diplomas
     events_category: events_categories
     location: locations
+    organizations_category: organizations_categories
+    persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
     researcher: researchers
