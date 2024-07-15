@@ -13,4 +13,4 @@ params:
       truncate_description: 0
       layout: grid
       options:
-        hide_category: true
+        categories: false
