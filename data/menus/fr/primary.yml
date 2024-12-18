@@ -4,30 +4,35 @@ items:
 - title: Tous les livres
   target: "/livres/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Orthodoxie
   target: "/livres/orthodoxie/"
   kind: category
+  new_tab: false
   children: []
   path: "/posts_categories/orthodoxie"
   file: content/fr/posts_categories/orthodoxie/_index.html
 - title: Hérésie
   target: "/livres/heresie/"
   kind: category
+  new_tab: false
   children: []
   path: "/posts_categories/heresie"
   file: content/fr/posts_categories/heresie/_index.html
 - title: Hétérodoxies
   target: "/livres/heterodoxie/"
   kind: category
+  new_tab: false
   children: []
   path: "/posts_categories/heterodoxie"
   file: content/fr/posts_categories/heterodoxie/_index.html
 - title: En savoir plus
   target: "/en-savoir-plus/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/en-savoir-plus"
   file: content/fr/pages/en-savoir-plus/_index.html
