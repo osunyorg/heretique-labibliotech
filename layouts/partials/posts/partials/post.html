@@ -23,7 +23,7 @@
     {{ $heading_tag.close }}
 
     {{ if site.Params.posts.index.show_categories }}
-      {{- partial "posts/categories" . -}}
+      {{- partial "posts/categories.html" . -}}
     {{ end }}
 
     {{ if site.Params.posts.index.show_description }}
