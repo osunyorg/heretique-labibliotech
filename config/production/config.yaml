@@ -2,6 +2,11 @@
 
 baseURL: https://bibliotech.heretique.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: e44bab13-4105-47bd-9577-f147af46ff5c
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
