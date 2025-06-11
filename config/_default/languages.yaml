@@ -10,12 +10,6 @@ fr:
   params:
     contact_details:
 
-  permalinks:
-    pages_categories: /:slug/
-    posts: /livres/:year-:month-:day-:slug/
-    posts_categories: /livres/:slug/
-    persons: /personnes/:slug/
-    persons_categories: /personnes/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
