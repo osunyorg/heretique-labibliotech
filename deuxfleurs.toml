@@ -15,58 +15,58 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/livres/heterodoxies/"
+from = "/livres/heterodoxies/index.html"
 to = "/livres/heterodoxie/"
 
 [[redirects]]
-from = "/equipe/marie-real/"
+from = "/equipe/marie-real/index.html"
 to = "/personnes/marie-real/"
 
 [[redirects]]
-from = "/equipe/"
+from = "/equipe/index.html"
 to = "/personnes/"
 
 [[redirects]]
-from = "/equipe/david-s-evans/"
+from = "/equipe/david-s-evans/index.html"
 to = "/personnes/david-s-evans/"
 
 [[redirects]]
-from = "/actualites/2016-05-24-matchmakers/"
+from = "/actualites/2016-05-24-matchmakers/index.html"
 to = "/livres/2016-05-24-matchmakers/"
 
 [[redirects]]
-from = "/equipe/antoine-mestrallet/"
+from = "/equipe/antoine-mestrallet/index.html"
 to = "/personnes/antoine-mestrallet/"
 
 [[redirects]]
-from = "/equipe/antoine-kurka/"
+from = "/equipe/antoine-kurka/index.html"
 to = "/personnes/antoine-kurka/"
 
 [[redirects]]
-from = "/equipe/dominique-cardon/"
+from = "/equipe/dominique-cardon/index.html"
 to = "/personnes/dominique-cardon/"
 
 [[redirects]]
-from = "/equipe/richard-schmalensee/"
+from = "/equipe/richard-schmalensee/index.html"
 to = "/personnes/richard-schmalensee/"
 
 [[redirects]]
-from = "/actualites/2015-10-01-a-quoi-revent-les-algorithmes/"
+from = "/actualites/2015-10-01-a-quoi-revent-les-algorithmes/index.html"
 to = "/livres/2015-10-01-a-quoi-revent-les-algorithmes/"
 
 [[redirects]]
-from = "/equipe/equipe-editoriale/"
+from = "/equipe/equipe-editoriale/index.html"
 to = "/personnes/equipe-editoriale/"
 
 [[redirects]]
-from = "/actualites/"
+from = "/actualites/index.html"
 to = "/livres/"
 
 [[redirects]]
-from = "/equipe/hartmut-rosa/"
+from = "/equipe/hartmut-rosa/index.html"
 to = "/personnes/hartmut-rosa/"
 
 [[redirects]]
-from = "/equipe/kevin-echraghi/"
+from = "/equipe/kevin-echraghi/index.html"
 to = "/personnes/kevin-echraghi/"
 
